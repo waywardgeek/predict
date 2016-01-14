@@ -200,7 +200,7 @@ int main(int argc, char **argv) {
     if(argc != 3) {
         fprintf(stderr, "Usage: predict N datafile\n"
             "    N is the number of bits to use in predicting the next bit.\n"
-            "    data file is a binary file of random data to be tested.\n"
+            "    datafile is a binary file of random data to be tested.\n"
             "        Bits are shifted in MSB to LSB in each byte.\n");
         return 1;
     }

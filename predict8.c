@@ -6,7 +6,7 @@
 int main(int argc, char **argv) {
     if(argc != 2) {
         fprintf(stderr, "Usage: predict8 datafile\n"
-            "    data file is a binary file of random data to be tested.\n");
+            "    datafile is a binary file of random data to be tested.\n");
         return 1;
     }
     FILE *datafile = fopen(argv[1], "rb");
